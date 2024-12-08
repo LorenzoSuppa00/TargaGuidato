@@ -1,0 +1,13 @@
+train: D:\temp\targhe\datasets\v11\train
+val: D:\temp\targhe\datasets\v11\valid
+test: D:\temp\targhe\datasets\v11\test
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: prima-prova-roboflow
+  project: license-plates-detection-8g9l8
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prima-prova-roboflow/license-plates-detection-8g9l8/dataset/11

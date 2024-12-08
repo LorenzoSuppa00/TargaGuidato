@@ -1,0 +1,19 @@
+1) Installa VSC;
+2) Installa 3.8 <= Python <= 3.12;
+3) Apri VSC  Ctrl + Maiusc + P  Python Create Enviroment  Venv  Python 3.10;
+4) Terminale  pip install -r “requirements.txt”;
+5) Crea nuova versione su Roboflow;
+6) Crea cartella datasets in VSC;
+7) Dentro datasets crea un’altra cartella vNumeroVersione;
+8) Roboflow  Download Dataset  Yolo
+9) Estrarre il contenuto dentro la cartella vNumeroVersione;
+10) Modificare i path su data.yaml inserendo i percorsi assoluti delle cartelle train, valid, test (rimuovere anche i doppi apici  “”) (impostare anche la cartella vNumVersione come dataset_directory sul file setting.json;
+11) Apire il tutorial su  https://medium.com/@mahijain9211/comprehensive-guide-to-real-time-car-license-plate-detection-with-yolo-bt-ee9aa4bd9913
+12) Creare file train.py;
+13) Fare lo step 3 del tutorial nel file train.py (modificare stringhe dove serve);
+14) Creare file export.py;
+15) Step 4 del tutorial medium su file export.py (modificare stringhe dove serve);
+16) Creare file tflite.py  (test del modello .tflite);
+17) Caricare immagine automobile.jpg;
+18) Step 5 su file tflite.py (modificare stringhe dove serve);
+19) Spostare il file data.yaml fuori da datasets prima di runnare train.py
