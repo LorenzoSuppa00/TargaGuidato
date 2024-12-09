@@ -1,5 +1,5 @@
 1) Installa VSC;
-2) Installa 3.8 <= Python <= 3.12;
+2) Installa 3.8 <= Python <= 3.11;
 3) Apri VSC  Ctrl + Maiusc + P  Python Create Enviroment  Venv  Python 3.10;
 4) Terminale  pip install -r “requirements.txt”;
 5) Crea nuova versione su Roboflow;
