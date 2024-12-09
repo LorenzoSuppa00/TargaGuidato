@@ -5,7 +5,7 @@
 5) Crea nuova versione su Roboflow;
 6) Crea cartella datasets in VSC;
 7) Dentro datasets crea un’altra cartella vNumeroVersione;
-8) Roboflow  Download Dataset  Yolo
+8) Roboflow  Download Dataset  Yolov11
 9) Estrarre il contenuto dentro la cartella vNumeroVersione;
 10) Modificare i path su data.yaml inserendo i percorsi assoluti delle cartelle train, valid, test (rimuovere anche i doppi apici  “”) (impostare anche la cartella vNumVersione come dataset_directory sul file setting.json;
 11) Apire il tutorial su  https://medium.com/@mahijain9211/comprehensive-guide-to-real-time-car-license-plate-detection-with-yolo-bt-ee9aa4bd9913
